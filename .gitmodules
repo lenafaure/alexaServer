@@ -1,0 +1,3 @@
+[submodule "apps/alexate"]
+	path = apps/alexate
+	url = https://AIEParis:githubAIEPASS2016@github.com/Capgemini-AIE/Alexa-home-control.git
