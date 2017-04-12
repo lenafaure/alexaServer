@@ -1,2 +1,2 @@
-# Alexa-home-control-server
-Server for Alexa home control
+# Alexa-health-cloud-server
+Server for Alexa 4 HealthCloud
