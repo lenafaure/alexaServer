@@ -1,0 +1,23 @@
+{
+  "name": "health-skill",
+  "version": "1.0.0",
+  "description": "Health Skill Alexa 4 Salesforce",
+  "main": "index.js",
+  "scripts": {
+    "test": "hello"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lenafaure/alexaHealthSkill.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lenafaure/alexaHealthSkill/issues"
+  },
+  "homepage": "https://github.com/lenafaure/alexaHealthSkill#readme",
+  "dependencies": {
+    "alexa-app": "^4.0.0"
+  },
+  "devDependencies": {}
+}
