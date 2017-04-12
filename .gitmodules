@@ -1,0 +1,3 @@
+[submodule "apps/health-skill"]
+	path = apps/health-skill
+	url = https://github.com/lenafaure/alexaHealthSkill.git
