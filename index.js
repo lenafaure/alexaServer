@@ -35,17 +35,25 @@ app.intent('sayNumber',
     }
 );
 
-app.intent('sayMedication',
+app.intent('sayMedicationTime',
     {
         "utterances":[
         "What time is my Medication",
-        "give me the number {1-100|number}",
-        "tell me the number {1-100|number}",
-        "I want to hear you say the number {1-100|number}"]
+        "Medication"]
     },
     function(request,response) {
-        var number = request.slot('number');
-        response.say("Your medication is due at 14h");
+        response.say("Your medication is due at 7pm");
+    }
+);
+
+app.intent('sayMedicationDose',
+    {
+        "utterances":[
+            "How many doses do I have to take",
+            "Dose"]
+    },
+    function(request,response) {
+        response.say("Your have to take 2 doses of your medication");
     }
 );
 
