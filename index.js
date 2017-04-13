@@ -53,7 +53,7 @@ app.intent('sayMedicationDose',
             "Dose"]
     },
     function(request,response) {
-        response.say("Your have to take 2 doses of your medication");
+        response.say("You have to take 2 doses of your medication");
     }
 );
 
