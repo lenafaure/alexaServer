@@ -9,7 +9,7 @@ var app = new alexa.app( 'test-skill' );
 
 
 app.launch( function( request, response ) {
-    response.say( 'Welcome to your test skill' ).reprompt( 'Way to go. You got it to run. Bad ass.' ).shouldEndSession( false );
+    response.say( 'Welcome to Digicare' ).reprompt( 'What can I do for you today?' ).shouldEndSession( false );
 } );
 
 
