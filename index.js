@@ -57,4 +57,18 @@ app.intent('sayMedicationDose',
     }
 );
 
+app.intent('sayWeekPlan',
+    {
+        "utterances":[
+            "What do I have to do this week",
+            "What is my plan for the week",
+            "Week plan"
+        ]
+    },
+    function(request,response) {
+        response.say("Here is your plan for this week");
+    }
+);
+
+
 module.exports = app;
