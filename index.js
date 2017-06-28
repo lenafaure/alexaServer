@@ -9,7 +9,7 @@ var app = new alexa.app( 'test-skill' );
 
 
 app.launch( function( request, response ) {
-    response.say( 'Welcome to your test skill' ).reprompt( 'Way to go. You got it to run. Bad ass.' ).shouldEndSession( false );
+    response.say( 'Welcome to Digicare' ).reprompt( 'What can I do for you today?' ).shouldEndSession( false );
 } );
 
 
@@ -53,7 +53,20 @@ app.intent('sayMedicationDose',
             "Dose"]
     },
     function(request,response) {
-        response.say("Your have to take 2 doses of your medication");
+        response.say("You have to take 2 doses of your medication");
+    }
+);
+
+app.intent('sayWeekPlan',
+    {
+        "utterances":[
+            "What do I have to do this week",
+            "What is my plan for the week",
+            "Week plan"
+        ]
+    },
+    function(request,response) {
+        response.say("Here is your plan for this week");
     }
 );
 
